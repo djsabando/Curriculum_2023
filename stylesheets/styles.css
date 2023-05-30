@@ -1,3 +1,60 @@
-h1 {
+header {
 color: red;
+background-color: yellow;
 }
+
+
+
+h2 {
+    color: red;;
+}
+
+main {
+    display: grid;
+    row-gap: 0.5rem;
+    column-gap: 0.5rem; 
+    grid-template-areas: "fila1";
+    color: red;
+}
+
+main {
+    display: grid;
+    row-gap: 0.5rem;
+    column-gap: 0.5rem; 
+    color: red;
+}
+
+#profile {
+    display: grid;
+    padding: 30px 30px 30px;
+    grid-template-areas: "fila1 fila2 fila2"
+                        "fila21 fila22 fila22";
+
+    background-color: aqua;
+}
+
+#profile #pic{
+    grid-area: fila1;   
+    background-color:black;
+
+}
+
+#profile #saludo{
+    grid-area: fila2;
+    background-color:blueviolet;
+
+}
+
+#profile #párrafo{
+    grid-area: fila22;
+    background-color:darkgreen;
+
+}
+
+#profile #info{
+    grid-area: fila21;
+    background-color:antiquewhite;
+
+}
+
+
