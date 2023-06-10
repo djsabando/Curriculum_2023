@@ -1,13 +1,14 @@
-  <!DOCTYPE html><html>
+<!DOCTYPE html>
+<html>
+
   <head>
-    <title>Curriculum Vitae</title>
-    <link rel="stylesheet" href="stylesheets/styles.css">
+    <title>Mi Currículum</title>
+    <link rel="stylesheet" type="text/css" href="stylesheets/styles.css">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Titillium+Web:400,600|Patua+One:400|Titillium+Web:400italic,700italic&amp;subset=latin,latin-ext">
   </head>
 
-
-
   <body>
-    
+
     <header class="head">
 
       <nav class="barraNav">
@@ -21,80 +22,132 @@
 
     </header>
 
-
-    <main>
-      <div id="container">
-        <sectiion id="profile">
-
-          <section id="pic"> AQUI LA FOTO</section>
-          <section id="saludo"> saludo </section>
-
-          
-
-          <div id="párrafo">
-            <p> Lorem ipsum dolor sit, amet consectetur 
-              adipisicing elit. Soluta dignissimos ex libero 
-              fuga ut expedita, ad beatae eaque dolorem doloribus quisquam deleniti, ipsa molestiae deserunt placeat, id neque? Saepe, quisquam!</p>
-          </div>
-
-          <div id="info">
-            <h2>Información</h2>
-            <ul>
-              <li>Nombre: Douglas Sabando</li>
-              <li>Teléfono: 0981894763</li>
-              <li>F. Nacimiento: 6 Oct. 1995</li>
-              <li>Email: douglas_sabando@hotmail.es</li>
-            </ul>
-          </div>
-
-        </sectiion>
-        
-      </div>
-      
-      <div class="section">
-        <h2>Experiencia laboral</h2>
-          <p>
-          Trabajé como desarrollador web en Acme Corporation durante los últimos
-          tres años.
-          Mis responsabilidades incluían el diseño, desarrollo y mantenimiento
-          de sitios web.
-          </p>
-      </div>     
-      
-      <section>
-        <h2>Education</h2>
-        <p>University of California, Berkeley</p>
-        <p>Bachelor of Science in Computer Science</p>
-        <p>2012-2016</p>
+    <div id="container">
+      <!-- sobre mi -->
+      <section class="containerSobreMi" id="containerSobreMi">
+        <img id= "pic"class="imageSobreMi" src="stylesheets/perfil.jpeg" alt="foto peril">
+        <div id="saludo"> 
+          <div id="nombre"> <h1>Douglas Sabando Macías</h1></div>
+          <div id="bienvenida"> <h2>!Bienvenidos, gracias por visitar!</h2> </div>
+        </div>
+        <div id="párrafo">
+          <p> Lorem ipsum dolor sit, amet consectetur
+            adipisicing elit. Soluta dignissimos ex libero
+            fuga ut expedita, ad beatae eaque dolorem doloribus quisquam
+            deleniti, ipsa molestiae deserunt placeat, id neque? Saepe,
+            quisquam!</p>
+        </div>
+        <div id = "info">
+          <h2 id = "title-info"> Información</h2>
+          <ul>
+            <li>Nombre: Douglas Sabando</li>
+            <li><strong>Teléfono:</strong> 0981894763</li>
+            <li><strong>F. Nacimiento:</strong> 6 Oct. 1995</li>
+            <li><strong>Email:</strong> douglas_sabando@hotmail.es</li>
+          </ul>
+        </div>
       </section>
-      <section>
-        <h2>Work Experience</h2>
-        <p>Software Engineer at Google</p>
-        <p>2016-Present</p>
-        <p>Developed and maintained software for Google's search engine</p>
-      </section>
-      <section>
-        <h2>Skills</h2>
-        <p>Programming Languages: Java, Python, C++</p>
-        <p>Operating Systems: Linux, Windows, macOS</p>
-        <p>Databases: MySQL, PostgreSQL</p>
-      </section>
-      
-      <section>
-        <h2>IMAGEN</h2>
-        <img src="https://media.istockphoto.com/id/1224500457/photo/programming-code-abstract-technology-background-of-software-developer-and-computer-script.jpg?s=612x612&w=0&k=20&c=nHMypkMTU1HUUW85Zt0Ff7MDbq17n0eVeXaoM9Knt4Q=" alt="MDN">
-      </section>
-      
-      
-      <section>
-        <h2>MAPA</h2>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11276.976091522058!2d-79.94671767226613!3d-2.1486588674856715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d72f63a84bb9b%3A0xcc923bf175c1350b!2sOficina%20de%20Admisiones%20ESPOL!5e0!3m2!1ses!2sec!4v1684782655972!5m2!1ses!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </section>
-      
-    </main>
-    <footer>
-      <p>Copyright &copy; 2023</p>
-    </footer>
 
-  </body>
-</html>
+
+
+      <!-- sobre mi --><br><br><br>
+      <!-- Experiencia -->
+
+      <section class="containerExpeLaboral" id="containerExpeLaboral">
+        <div class="textExpeLaboral">
+          <h2>Experiencia laboral</h2>
+          <p><strong>Puesto:</strong> Tu Puesto</p>
+          <p><strong>Fecha:</strong> Fecha de Inicio - Fecha de Fin</p>
+          <p><strong>Descripción:</strong> Descripción de tus responsabilidades
+            y logros en el puesto</p>
+        </div>
+      </section>
+
+      <!-- Experiencia -->
+
+      <br><br><br>
+      <!-- educacion -->
+
+      <section class="containerEducacion" id="containerEducacion">
+        <img class="imageEducacion" src="stylesheets/img_1.jpg" alt="foto grey">
+        <div class="textEducacion">
+          <h2>Educación</h2>
+          <h3>Nombre de la institución</h3>
+          <p><strong>Título:</strong> Tu Título</p>
+          <p><strong>Fecha de graduación:</strong> Fecha de Graduación</p>
+        </div>
+      </section>
+
+      <!-- educacion -->
+      <br><br><br>
+      <!-- habilidades -->
+
+      <section class="containerHabilidades" id="containerHabilidades">
+        <img class="imageHabilidades" src="stylesheets/img_1.jpg"
+          alt="foto grey">
+        <div class="textHabilidades">
+          <h2>Habilidades</h2>
+          <ul>
+            <li>Tu habilidad 1</li>
+            <li>Tu habilidad 2</li>
+            <li>Tu habilidad 3</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- habilidades -->
+
+      <!-- ********************TERMINAR LA FUNCION CLICK *******************-->
+
+      <script>
+
+      function containerSobreMi() {
+        alert('listo sobre mi');
+
+      }
+
+      document.getElementById('sobre_mi').onclick = containerSobreMi;
+
+
+
+
+
+      function containerExpeLaboral() {
+        alert('listo experiencia');
+
+      }
+      document.getElementById('laboral').onclick = containerExpeLaboral;
+
+
+
+      function containerEducacion() {
+        alert('listo educacion');
+
+      }
+      document.getElementById('educacion').onclick = containerEducacion;
+
+
+      function containerHabilidades() {
+        alert('listo habilidades');
+
+        //var div = document.getElementById('containerExpeLaboral');
+        //div.style.display = 'block';
+
+      }
+      document.getElementById('habilidades').onclick = containerHabilidades;
+
+
+/*
+      function mostrarDiv() {
+        var div = document.getElementById('contentDiv');
+        div.style.display = 'block';
+    }
+
+    // Asignar la función al elemento con el identificador 'showButton'
+    document.getElementById('showButton').onclick = mostrarDiv;
+*/
+
+    </script>
+    </body>
+
+  </html>

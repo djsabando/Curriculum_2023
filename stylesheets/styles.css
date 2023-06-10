@@ -1,60 +1,194 @@
-header {
-color: red;
-background-color: yellow;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400&family=Titillium+Web:ital,wght@1,200;1,400&display=swap');
+
+
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 50px;
+    color: white;
+    background-image: url('img_2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#container,
+.head {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+ul.nav-link {
+    display: flex;
+    
+}
+
+ul.nav-link li {
+    margin-right: 30px;
+    margin-bottom: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+
+strong {
+    font-weight: bold;
 }
 
 
 
-h2 {
-    color: red;;
+li {
+    margin-bottom: 15px;
+    /* display: inline-block;
+    padding: 10px 20px; */
 }
 
-main {
-    display: grid;
-    row-gap: 0.5rem;
-    column-gap: 0.5rem; 
-    grid-template-areas: "fila1";
-    color: red;
+
+li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
 }
 
-main {
-    display: grid;
-    row-gap: 0.5rem;
-    column-gap: 0.5rem; 
-    color: red;
+li a:hover {
+    background-color: #e8feed;
+    color: black;
+    padding: 2px;
+
+    /*color: #fff;*/
 }
 
-#profile {
+
+
+/* SOBRE MI */
+
+#containerSobreMi {
     display: grid;
     padding: 30px 30px 30px;
     grid-template-areas: "fila1 fila2 fila2"
-                        "fila21 fila22 fila22";
+        "fila21 fila22 fila22";
 
-    background-color: aqua;
+    background-color: white;
 }
 
-#profile #pic{
-    grid-area: fila1;   
-    background-color:black;
+#containerSobreMi #pic {
+    grid-area: fila1;
+    background-color: black;
 
 }
 
-#profile #saludo{
+#containerSobreMi #saludo {
     grid-area: fila2;
-    background-color:blueviolet;
-
+    background-color: blueviolet;
+    display: grid;
+    
 }
 
-#profile #párrafo{
+#containerSobreMi #párrafo {
     grid-area: fila22;
-    background-color:darkgreen;
+    background-color: darkgreen;
+    padding: inherit;
 
 }
 
-#profile #info{
+#containerSobreMi #info {
     grid-area: fila21;
-    background-color:antiquewhite;
+    background-color: antiquewhite;
+    padding-top: 20px;
+    padding-right: 30px;   
 
 }
 
+#nombre{
+    background-color: #343c41;   
+    padding: 40px;
+}
 
+#bienvenida{
+    background-color: #eaeced;
+
+
+}
+
+#title-info{
+    padding-left: 20px;
+}
+
+.imageSobreMi {
+    width: 320px;
+}
+
+.info{
+    margin: 20px;
+}
+/* .textSobreMi {
+    flex: 1;
+} */
+
+/* SOBRE MI */
+
+
+/*EXPERIECIA */
+
+.containerExpeLaboral {
+    background: white;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    color: black;
+}
+
+.imageExpeLaboral {
+    width: 200px;
+    margin-right: 20px;
+}
+
+.textExpeLaboral {
+    flex: 1;
+}
+
+/*EXPERIECIA */
+
+/*educacion */
+
+.containerEducacion {
+    background-image: url('img_2.jpg');
+    display: flex;
+    align-items: center;
+}
+
+.imageEducacion {
+    width: 200px;
+    margin-right: 20px;
+}
+
+.textEducacion {
+    flex: 1;
+}
+
+/*educacion */
+
+/*habilidades */
+
+.containerHabilidades {
+    background-image: url('img_2.jpg');
+    display: flex;
+    align-items: center;
+}
+
+.imageHabilidades {
+    width: 200px;
+    margin-right: 20px;
+}
+
+.textHabilidades {
+    flex: 1;
+}
+
+/*habilidades */
