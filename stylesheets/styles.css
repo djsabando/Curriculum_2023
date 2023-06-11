@@ -1,9 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400&family=Titillium+Web:ital,wght@1,200;1,400&display=swap');
-
+@import url('http://fonts.googleapis.com/css?family=Titillium+Web:400,600|Patua+One:400|Titillium+Web:400italic,700italic&amp;subset=latin,latin-ext');
 
 
 body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0;
     padding: 50px;
     color: white;
@@ -13,27 +11,28 @@ body {
     background-position: center center;
 }
 
+
+
 #container,
 .head {
-    max-width: 1100px;
-    margin: 0 auto;
+    width: 960px;
+    margin: 30px auto;
 }
 
 ul.nav-link {
     display: flex;
-    
+    padding-left: 0%;
+    margin-bottom: 0%;
+    height: 65px;
+    width: 800px;
+
 }
 
-ul.nav-link li {
-    margin-right: 30px;
-    margin-bottom: auto;
-}
 
 ul {
     list-style-type: none;
     margin-top: 10px;
     margin-bottom: 20px;
-    padding-left: 20px;
 }
 
 
@@ -41,20 +40,26 @@ strong {
     font-weight: bold;
 }
 
+span{
+    padding: 65px;
+    line-height: 60px;
 
 
-li {
-    margin-bottom: 15px;
-    /* display: inline-block;
-    padding: 10px 20px; */
 }
 
 
-li a {
+ul#list-nav li a {
     text-decoration: none;
     color: white;
     font-size: 18px;
+    border-radius: 3px 3px 0 0;
+    display: block;
+    height: 60px;
+    background: #2D393F;
+    margin-top: 5px;
+    /* vertical-align: baseline; */
 }
+
 
 li a:hover {
     background-color: #e8feed;
@@ -64,6 +69,17 @@ li a:hover {
     /*color: #fff;*/
 }
 
+
+ul#list-nav li {
+    /* float: left; */
+    height: 65px;
+    display: block;
+    background: #73dc44;
+    border-radius: 5px 5px 0 0;
+    /* -webkit-transition: background 0.5s ease;
+    -moz-transition: background 0.5s ease; */
+    margin-right: 1px;
+}
 
 
 /* SOBRE MI */
@@ -85,48 +101,64 @@ li a:hover {
 
 #containerSobreMi #saludo {
     grid-area: fila2;
-    background-color: blueviolet;
     display: grid;
-    
+
+
 }
 
 #containerSobreMi #párrafo {
     grid-area: fila22;
-    background-color: darkgreen;
+    background-color: white;
     padding: inherit;
+    padding-left: 50px;
+    color: #343c41;
 
 }
+
+
 
 #containerSobreMi #info {
     grid-area: fila21;
-    background-color: antiquewhite;
-    padding-top: 20px;
-    padding-right: 30px;   
+    background: url(../stylesheets/sidebar-shadow.png) right top no-repeat;
+    padding: 30px;
+    color: #343c41;
 
 }
 
-#nombre{
-    background-color: #343c41;   
-    padding: 40px;
+#nombre {
+    background-color: #343c41;
+    padding-left: 100px;
+    padding: 40px 40px 40px 60px;
 }
 
-#bienvenida{
+
+#bienvenida {
     background-color: #eaeced;
-
+    color: #343c41;
+    /* padding-left: 45px; */
+    padding: 30px;
 
 }
 
-#title-info{
+#mensaje {
+    text-align: center;
+
+}
+
+#title-info {
     padding-left: 20px;
 }
 
+
+
 .imageSobreMi {
-    width: 320px;
+    width: 325px;
+    max-height: 320px;
 }
 
-.info{
+/* .info{
     margin: 20px;
-}
+} */
 /* .textSobreMi {
     flex: 1;
 } */
@@ -136,7 +168,9 @@ li a:hover {
 
 /*EXPERIECIA */
 
-.containerExpeLaboral {
+.containerExpeLaboral,
+.containerEducacion,
+.containerHabilidades {
     background: white;
     display: flex;
     align-items: center;
@@ -157,30 +191,24 @@ li a:hover {
 
 /*educacion */
 
-.containerEducacion {
+/* /* .containerEducacion {
     background-image: url('img_2.jpg');
     display: flex;
     align-items: center;
-}
+} */
 
 .imageEducacion {
     width: 200px;
     margin-right: 20px;
 }
 
-.textEducacion {
+*/ .textEducacion {
     flex: 1;
 }
 
 /*educacion */
 
 /*habilidades */
-
-.containerHabilidades {
-    background-image: url('img_2.jpg');
-    display: flex;
-    align-items: center;
-}
 
 .imageHabilidades {
     width: 200px;

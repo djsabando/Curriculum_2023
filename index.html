@@ -4,51 +4,51 @@
   <head>
     <title>Mi Currículum</title>
     <link rel="stylesheet" type="text/css" href="stylesheets/styles.css">
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Titillium+Web:400,600|Patua+One:400|Titillium+Web:400italic,700italic&amp;subset=latin,latin-ext">
   </head>
 
   <body>
 
-    <header class="head">
+    <header class="head" style="margin-bottom: 0%;">
 
       <nav class="barraNav">
-        <ul class="nav-link">
-          <li><a href="#">Perfil</a></li>
-          <li><a href="#">Resumen</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Contacto</a></li>
+        <ul id = "list-nav" class="nav-link">
+          <li><a href="#"><span>Perfil</span></a></li>
+          <li><a href="#"><span>Resumen</span></a></li>
+          <li><a href="#"><span>Blog</span></a></li>
+          <li><a href="#"><span>Contacto</span></a></li>
         </ul>
       </nav>
 
     </header>
 
-    <div id="container">
+    <div id="container" style="margin-top: 0%;">
       <!-- sobre mi -->
       <section class="containerSobreMi" id="containerSobreMi">
-        <img id= "pic"class="imageSobreMi" src="stylesheets/perfil.jpeg" alt="foto peril">
-        <div id="saludo"> 
+        <img id="pic" class="imageSobreMi" src="stylesheets/perfil.jpeg"
+          alt="foto peril">
+        <div id="saludo">
           <div id="nombre"> <h1>Douglas Sabando Macías</h1></div>
-          <div id="bienvenida"> <h2>!Bienvenidos, gracias por visitar!</h2> </div>
+          <div id="bienvenida"> <h2 id="mensaje">!Bienvenidos, gracias por
+              visitar!</h2> </div>
         </div>
         <div id="párrafo">
-          <p> Lorem ipsum dolor sit, amet consectetur
-            adipisicing elit. Soluta dignissimos ex libero
-            fuga ut expedita, ad beatae eaque dolorem doloribus quisquam
-            deleniti, ipsa molestiae deserunt placeat, id neque? Saepe,
-            quisquam!</p>
+          <p> Desarrollador principiante de 26 años con una pasión por la
+            creación de soluciones innovadoras y eficientes. Poseo habilidades
+            en lenguajes de programación como Java y Python, así como
+            conocimientos en desarrollo web y bases de datos. Mi objetivo es
+            seguir aprendiendo y creciendo en el campo de la programación,
+            contribuyendo con ideas frescas y resolviendo desafíos tecnológicos.</p>
         </div>
-        <div id = "info">
-          <h2 id = "title-info"> Información</h2>
-          <ul>
-            <li>Nombre: Douglas Sabando</li>
+        <div id="info">
+          <h2 id="title-info"> Información</h2>
+          <ul style="padding-left: 20px">
+            <li><strong>Nombre:</strong> Douglas Sabando</li>
             <li><strong>Teléfono:</strong> 0981894763</li>
             <li><strong>F. Nacimiento:</strong> 6 Oct. 1995</li>
             <li><strong>Email:</strong> douglas_sabando@hotmail.es</li>
           </ul>
         </div>
       </section>
-
-
 
       <!-- sobre mi --><br><br><br>
       <!-- Experiencia -->
@@ -83,8 +83,10 @@
       <!-- habilidades -->
 
       <section class="containerHabilidades" id="containerHabilidades">
-        <img class="imageHabilidades" src="stylesheets/img_1.jpg"
-          alt="foto grey">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d127586.25014268282!2d-79.9244288!3d-2.1266431999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sec!4v1686388502653!5m2!1ses-419!2sec"
+          width="400" height="300" style="border:0;" allowfullscreen
+          loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         <div class="textHabilidades">
           <h2>Habilidades</h2>
           <ul>
@@ -92,6 +94,7 @@
             <li>Tu habilidad 2</li>
             <li>Tu habilidad 3</li>
           </ul>
+
         </div>
       </section>
 
