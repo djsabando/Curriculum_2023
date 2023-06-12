@@ -4,6 +4,7 @@
 body {
     margin: 0;
     padding: 50px;
+    padding-bottom: 0px;
     color: white;
     background-image: url('img_2.jpg');
     background-repeat: no-repeat;
@@ -13,7 +14,11 @@ body {
 
 
 
-#container,
+#container{
+    width: 960px;
+    margin: 30px auto;
+    margin-bottom: 0px;
+}
 .head {
     width: 960px;
     margin: 30px auto;
@@ -81,7 +86,21 @@ ul#list-nav li {
     margin-right: 1px;
 }
 
+footer {
+    background-color: transparent;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    height: 30px;
+  }
+  
 
+  .justify-content-center a{
+    line-height: 35px;
+    margin-right: 10px;
+    
+
+  }
 /* SOBRE MI */
 
 #containerSobreMi {
@@ -169,7 +188,7 @@ ul#list-nav li {
 /*EXPERIECIA */
 
 .containerExpeLaboral,
-.containerEducacion,
+.containerBlog,
 .containerHabilidades {
     background: white;
     display: flex;
@@ -189,24 +208,15 @@ ul#list-nav li {
 
 /*EXPERIECIA */
 
-/*educacion */
+/*BLOG*/
 
-/* /* .containerEducacion {
-    background-image: url('img_2.jpg');
-    display: flex;
-    align-items: center;
-} */
 
-.imageEducacion {
-    width: 200px;
-    margin-right: 20px;
+
+.textBlog {
+    padding: 0px 40px 0px 40px;
 }
 
-*/ .textEducacion {
-    flex: 1;
-}
-
-/*educacion */
+/*BLOG*/
 
 /*habilidades */
 
